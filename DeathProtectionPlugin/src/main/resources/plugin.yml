@@ -1,0 +1,15 @@
+name: DeathProtectionPlugin
+version: '${project.version}'
+main: org.cnadygamer.deathprotectionplugin.DeathProtectionPlugin
+api-version: 1.19
+load: STARTUP
+commands:
+  cleardeathdata:
+    description: Clears all death protection data
+    usage: /<command>
+    permission: deathprotectionplugin.clear
+
+permissions:
+  deathprotectionplugin.clear:
+    description: Allows clearing of death protection data
+    default: op
