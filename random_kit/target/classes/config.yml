@@ -1,0 +1,15 @@
+kits:
+  kit1:
+    - type: WOODEN_SWORD
+  kit2:
+    - type: STONE_SWORD
+  kit3:
+    - type: IRON_SWORD
+  kit4:
+    - type: GOLDEN_SWORD
+  kit5:
+    - type: DIAMOND_SWORD
+  kit6:
+    - type: NETHERITE_SWORD
+  kit7:
+    - type: DIAMOND_SWORD

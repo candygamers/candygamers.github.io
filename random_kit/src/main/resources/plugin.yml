@@ -1,0 +1,11 @@
+name: random_kit
+version: '${project.version}'
+main: org.example.candygamer.random_kit.RandomKitPlugin
+api-version: '1.19'
+depend: [Oraxen]
+
+
+permissions:
+  randomkit.modify:
+    description: Allows modification of kits
+    default: op
